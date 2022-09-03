@@ -4,6 +4,23 @@
 |:---:|:---:
 `Sun Jun 12 10:05:56 CST 2022` | -
 
+
+基本类型
+
+```js
+funciton add(first:nuber, second: number): number {
+	return first + second
+}
+```
+
+没有返回值
+
+```js
+function sayHello():void{
+	console.log('success')
+}	
+```
+
 函数执行不完
 
 ```js

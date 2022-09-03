@@ -18,7 +18,7 @@ const func = (str: string) => {
 
 ```js
 const func: (str: string) => number = (str) => {
-  eturn parseInt(str, 10);
+  return parseInt(str, 10);
 }
 ```
 

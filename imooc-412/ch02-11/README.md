@@ -4,11 +4,15 @@
 |:---:|:---:
 `Sun Jun 12 14:41:16 CST 2022` | -
 
+
+* 优先使用接口，其次使用类型别名
+* 以字面量直接传递对象会进行强校验
+
 ```js
 interface Person {
   readonly name: string; 
   age?: number;
-  [propName: string]: any;
+  \[propName: string]: any; # 其他属性
   say(): string;
 }
 ```

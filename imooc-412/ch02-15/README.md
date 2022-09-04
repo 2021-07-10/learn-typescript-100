@@ -4,6 +4,16 @@
 |:---:|:---:
 `Sun Jun 12 15:26:59 CST 2022` | -
 
+
+```js
+class Person
+	public readonly name:string;
+	constructor(name:string) {
+		this.name = name
+	}
+end
+```
+
 抽象类
 
 ```js
@@ -23,4 +33,4 @@ interface User extends Person
 {
 
 }
-```
+``` 

@@ -2,8 +2,9 @@
 
 |本期版本|上期版本
 |:---:|:---:
-`Sun Jun 12 00:18:08 CST 2022` | -
+`Thu Dec  8 23:10:28 CST 2022` | -
 
+* prettier
 * typescript@3.6.4
 * ts-node@8.4.1
 
